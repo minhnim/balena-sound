@@ -12,7 +12,7 @@ if [[ -z $DISABLE_MULTI_ROOM ]]; then
   fi
 
   # Start snapclient
-  SNAPCAST_SERVER=$(118.69.37.109)
+  SNAPCAST_SERVER="118.69.37.109"
   echo -e "Starting snapclient...\nTarget snapcast server: $SNAPCAST_SERVER"
   snapclient -h $SNAPCAST_SERVER $LATENCY
 else
